@@ -1,0 +1,68 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 10px 20px;
+  line-height: 1.6;
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.header-nav a {
+  color: #52c76c;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.header-nav a.active {
+  color: #185726;
+}
+
+.site-footer {
+  margin-top: 1rem;
+  border-top: 1px dotted #adadad;
+  text-align: center;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+.banner {
+  padding: 60px;
+  text-align: center;
+  background-image: url('https://static.globalnoticias.pt/dn/image.jpg?brand=DN&type=generate&guid=e83bfeb5-d14d-4a7f-8cc4-5aea5ad0a298');;
+  color: white;
+  font-size: 30px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rectangle {
+  display: inline-flex;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  background:rgb(231, 231, 231);
+ }
+ 
+ img {
+   width: 1000px;
+   height:auto;
+ }
+ 
+ .text {
+   font-size: 30px;
+ }
